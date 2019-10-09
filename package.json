@@ -7,9 +7,7 @@
     "start": "node app.js",
     "deploy": "gulp deploy",
     "testdata": "node lib/testdata.js",
-    //"test": "tape test/*.js"
-    //"test": "NODE_ENV=test ava --verbose"
-    "test": "NODE_ENV=test && tape test/*.js"
+    "test": "NODE_ENV=test ava --verbose"
   },
   "engines": {
     "node": "10.16.0"
