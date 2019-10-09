@@ -20,7 +20,7 @@ pipeline {
      
     stage('Start') {
       steps {
-         sh 'npm start --production'
+         sh 'npm start'
       }
     }      
   }
