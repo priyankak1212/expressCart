@@ -18,6 +18,11 @@ pipeline {
       steps {
          sh 'npm start'
       }
-    }      
+    }    
+     stage('Build Docker Image') {
+      steps {
+         sh 'docker-compose up'
+      }
+    } 
   }
 }
