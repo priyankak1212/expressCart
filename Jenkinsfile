@@ -7,11 +7,7 @@ pipeline {
         git 'https://github.com/priyankak1212/expressCart'
       }
     }
-    stage('prune') {
-      steps {
-        sh 'npm prune'
-      }
-    }
+ 
     stage('Install dependencies') {
       steps {
         sh 'npm install'
