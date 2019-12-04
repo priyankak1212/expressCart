@@ -8,7 +8,7 @@ services:
       NODE_ENV: development
       NODE_PATH: /
     ports:
-      - "1112:1111"
+      - "1111:1111"
     links:
       - mongodb
     depends_on:
